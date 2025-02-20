@@ -16,9 +16,9 @@
 
 ## Secrets.xcconfig vložit do složky BookWatchman, kde je phone implementace (na úroveň vedle view/model/... složek)
 * V secrets bude následující:
-* * V případě s Cocoapods:
-#include "Pods/Target Support Files/Pods-BookWatchman/Pods-BookWatchman.debug.xcconfig"
-#include "Pods/Target Support Files/Pods-BookWatchman/Pods-BookWatchman.release.xcconfig"
-API_KEY=google_api_key
-* * V případě bez Cocoapods:
-API_KEY=google_api_key
+    * V případě s Cocoapods:
+        #include "Pods/Target Support Files/Pods-BookWatchman/Pods-BookWatchman.debug.xcconfig"
+        #include "Pods/Target Support Files/Pods-BookWatchman/Pods-BookWatchman.release.xcconfig"
+        API_KEY=google_api_key
+    * V případě bez Cocoapods:
+        API_KEY=google_api_key
